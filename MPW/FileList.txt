@@ -1,0 +1,216 @@
+Organization of an MPW-GM Folder
+================================
+
+:Interfaces&Libraries:
+	:DebuggingLibraries:
+		:CFM68KLibraries:
+			NuMacRuntimeDbg.o
+		:CLibraries:
+			StdCLibDbg.far.o
+			StdCLibDbg.o
+		:Libraries:
+			IntEnvDbg.far.o
+			...
+			OpenTransport.debug.o
+		:PPCLibraries:
+			OpenTptATalkPPC.debug.o
+			...
+			StdCRuntimeDbg.o
+		:RuntimeLibraries:
+			:Power Macintosh Additions:
+				StdCLibInitDbg
+		:SharedLibraries:
+			StdCLibDbg
+	:Interfaces:
+		:AIncludes:
+			ADSP.a
+			...
+			ZoomedVideo.a
+		:AStructMacs:
+			FlowCtlMacs.a
+			...
+			Sample.r
+		:CIncludes:
+			ADSP.h
+			...
+			ZoomedVideo.h
+		NewRoutineNames.dict
+		:PInterfaces:
+			ADSP.p
+			...
+			ZoomedVideo.p
+		:RIncludes:
+			AEDataModel.r
+			...
+			Windows.r
+	:Libraries:
+		:CFM68KLibraries:
+			NuCPlusLib.o
+			...
+			NuToolLibs.o
+		:CLibraries:
+			CLib881.far.o
+			...
+			StdCLib.o
+		:Libraries:
+			AEObjectSupportLib.o
+			...
+			ToolLibs.o
+		:PLibraries:
+			PasLib.o
+			SANELib.o
+			SANELib881.o
+		:PPCLibraries:
+			CarbonAccessors.o
+			...
+			StdCRuntime.o
+		:SharedLibraries:
+			AppearanceLib
+			...
+			WindowsLib
+	:RuntimeLibraries:
+		:CFM-68K Additions:
+			 CFM-68K Runtime Enabler
+			...
+			QuickDrawÅ GX Enabler
+		:Power Macintosh Additions:
+			:Mac OS 7.6 or Later:
+				StdCLib
+				StdCLib ReadMe
+			MrCExceptionsLib
+			PPCProffLib
+			:Pre-Mac OS 7.6:
+				StdCLibInit
+		:Required for MPW:
+			:Required for Pre-Mac OS 7.6:
+				StdCLibInit
+:MPW:
+	:Examples:
+		:32BitAExamples:
+		:AExamples:
+		:Carbon Examples:
+		:CExamples:
+		:CFMExamples:
+		:Examples:
+		:PPCExamples:
+		:Projector Examples:
+		:RIncludesExamples:
+		:SIOWExamples:
+		:ToolServer Examples:
+	:MPButtons:
+		Commenter
+		...
+		Script Button Example
+	MPW Shell
+	MPW.Help
+	Quit
+	:Quit Items:
+	QuitTS
+	:ROM Maps:
+		FilterROMMap
+		Makefile
+		:ROM.List:
+			AVROM.lst
+			...
+			Quadra950ROM.lst
+	:Scripts:
+		AliasSourceServer
+		BuildCommands
+		BuildMenu
+		BuildProgram
+		CompareFiles
+		CompareFilesÄNextChange
+		CompareFilesÄQuit
+		CompareRevisions
+		Directory2
+		DirectoryMenu
+		DoIt
+		InteractiveHelp
+		Line
+		MakePPCCodeRsrc
+		MergeBranch
+		MultiSearch
+		NewKeyMap
+		OrphanFiles
+		ProjectMenu
+		SetDirectory
+		shlb2stub
+		TransferCKID
+		UnaliasSourceServer
+		UserVariables
+	SourceServer
+	Startup
+	:Startup Items:
+	StartupTS
+	SysErrs.err
+	:Tools:
+		AboutBox
+		Asm
+		Backup
+		Canon
+		Canon.Dict
+		Choose
+		CMarker
+		Commando
+		Compare
+		Count
+		CreateMake
+		DeRez
+		DumpCode
+		DumpFile
+		DumpObj
+		DumpPEF
+		DumpSYM
+		DumpXCOFF
+		Entab
+		FileDiv
+		Gestalt
+		Get
+		GetErrorText
+		GetFileName
+		GetListItem
+		ILink
+		ILinkToSYM
+		Lib
+		Link
+		Make
+		MakeDepend
+		MakeErrorFile
+		MakeFlat
+		MakePEF
+		MakeStub
+		MakeSYM
+		MatchIt
+		MergeFragment
+		ModPEF
+		MountVolume
+		MrC
+		MrCpp
+		PerformReport
+		PPCAsm
+		PPCLink
+		PPCProff
+		Print
+		PrintProff
+		ResEqual
+		Rez
+		RezDet
+		SC
+		SCpp
+		Search
+		SendAE
+		SetPrivilege
+		SetShellSize
+		SetVersion
+		Sort
+		StreamEdit
+		Tee
+		Translate
+		Unmangle
+		VersionList
+		WhereIs
+	ToolServer
+	:TS Quit Items:
+	:TS Startup Items:
+	:User Commands:
+	Worksheet
