@@ -37,6 +37,8 @@ If it still doesn't work, then your USB drive probably doesn't contain a suitabl
 
 Retrieve the [image](https://www.macintoshrepository.org/1307-mac-os-9-2-2-universal-2002-edition-).  Will need an account.
 
+Burn the [image](https://www.macintoshrepository.org/articles/125-how-to-burn-or-write-or-clone-a-bootable-powerpc-disk-image-onto-an-usb-stick-in-windows)
+
 What is Mac OS 9.2.2 "boot kit" for booting your G3/G4 from an USB stick?
 
 This Mac OS 9.2.2 "boot kit" was made by @that-ben and makes the process of booting (and installing) Mac OS 9 on any G3 and most G4's from an USB stick much easier, because not all the Mac OS 9 install CD images can be used to boot a Mac from an unlocked volume (such as from an USB stick or hard drive).  This disk image does boot the computer into a fully useable desktop (albeit quite slow) and it's loaded with utilities and disk image mounting tools which will enable you to prepare and install Mac OS, everything without the need for a CD-ROM drive at all.  Since the USB drive is unlocked, you can even surf the web using the pre-installed Classilla browser and go get more files, directly from the same computer you're about to install Mac OS on :P
