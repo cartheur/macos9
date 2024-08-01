@@ -29,4 +29,6 @@ If it still doesn't work, then your USB drive probably doesn't contain a suitabl
 
 ### Progress timeline
 
-* Since 2018, these two PowerMacs ...
+* Since 2018, these two PowerMacs ... it certainly matters --
+
+![matters](/PowerMacG4-MDD/images/matters.png)
